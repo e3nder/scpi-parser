@@ -8,14 +8,14 @@
     "export": {
         "include":
         [
-            "libscpi/inc/scpi/*",
-            "libscpi/src/*"
+            "libscpi/inc",
+            "libscpi/src"
         ]
     },
     "build": {
         "srcFilter": [
-            "libscpi/inc/scpi/*",
-            "libscpi/src/*"
+            "libscpi/inc",
+            "libscpi/src"
         ]
     }
 }

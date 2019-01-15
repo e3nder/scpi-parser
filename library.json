@@ -9,7 +9,7 @@
         "include":
         [
             "libscpi/*.[ch]pp",
-            "libscpi/src/*.[ch]"
+            "libscpi/src/*.[ch]",
             "libscpi/inc/scpi/*.[ch]"
         ]
     }

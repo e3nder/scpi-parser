@@ -5,14 +5,14 @@
         "url": "https://github.com/j123b567/scpi-parser.git"
     },
     "version": "2.2",
-    "include": "libscpi",
-    "build": {
-        "srcFilter":
+    "export": {
+        "include":
         [
-            "+<libscpi/inc/scpi/*.[chg]>",
-            "+<libscpi/src/*.[chg]>"
+            "libscpi/*.[ch]pp",
+            "libscpi/src/*.[ch]"
+            "libscpi/inc/scpi/*.[ch]"
         ]
-    },
+    }
     "keywords": "scpi",
     "description": "Open-source SCPI library"
 }

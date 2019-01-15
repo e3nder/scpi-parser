@@ -13,6 +13,9 @@
             "libscpi/inc/scpi/*.[ch]"
         ]
     },
+    "build": {
+        "flags": "-Ilibscpi"
+    },
     "keywords": "scpi",
     "description": "Open-source SCPI library"
 }

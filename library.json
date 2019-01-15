@@ -14,7 +14,7 @@
         ]
     },
     "build": {
-        "flags": "-Ilibscpi"
+        "flags": "-Ilibscpi/src -Ilibscpi/inc"
     },
     "keywords": "scpi",
     "description": "Open-source SCPI library"

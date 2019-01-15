@@ -6,7 +6,6 @@
     },
     "version": "2.2",
     "export": {
-        "exclude": "libscpi/test/*",
         "include":
         [
             "libscpi/*.[ch]pp",

@@ -12,7 +12,7 @@
             "libscpi/src/*.[ch]",
             "libscpi/inc/scpi/*.[ch]"
         ]
-    }
+    },
     "keywords": "scpi",
     "description": "Open-source SCPI library"
 }
